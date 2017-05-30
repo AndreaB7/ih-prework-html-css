@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(244, 248, 249);
+  font-family: helvetica;
+  font-size: 30px;
+  line-height: 0.5;
+}
+
+
+#tweet{
+  background-color: rgb(255, 255, 255);
+
+  width: 920px;
+  height: 250px;
+
+  margin: auto;
+  margin-top: 20px;
+  padding: 40px;
+
+  border: 2px solid rgb(225, 232, 237);
+  border-radius: 10px;
+}
+
+button{
+  float:right;
+  left: 750px;
+
+  width: 184px;
+  height: 65px;
+
+  border-color: rgb(85, 172, 238);
+  border-radius: 5px;
+
+  background-color: rgb(255, 255, 255);
+
+  font-size: 30px;
+  font-family: helvetica;
+  font-weight: bold;
+  color: rgb(85, 172, 238);
+  clear: right;
+}
+
+button:hover {
+  background-color: rgb(171, 235, 198);
+}
+
+p.date {
+  color: rgb(101, 116, 127);
+  font-size: 28px;
+}
+
+p.account{
+  margin-left: 100px;
+  color: rgb(104, 109, 129);
+  font-size: 28px;
+}
+
+img {
+  position: relative;
+}
