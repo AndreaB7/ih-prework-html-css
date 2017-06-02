@@ -43,15 +43,45 @@ button:hover {
   background-color: rgb(171, 235, 198);
 }
 
+#user_picture{
+  float: left;
+  position: relative;
+}
+
+#user_info{
+  margin-left: 25px;
+}
+
+#user_message{
+  margin-top: 50px;
+}
+
 p.date {
   color: rgb(101, 116, 127);
   font-size: 28px;
 }
 
 p.account{
-  margin-left: 100px;
+  margin-left: 90px;
+  margin-top: 20px;
   color: rgb(104, 109, 129);
   font-size: 28px;
+}
+
+.icon_data {
+  position: relative;
+  display: inline-block;
+
+  margin: auto;
+  padding: 0px 10px 0px 10px;
+}
+
+.icon_user {
+  position: relative;
+  display: inline-block;
+
+  margin: auto;
+  padding: 0px;
 }
 
 img {

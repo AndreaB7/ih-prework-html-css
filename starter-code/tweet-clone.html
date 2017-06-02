@@ -5,45 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="tweet-clone.css">
-  <title>HTML &amp; CSS | Ironhack PreWork |</title>
+  <title>HTML &amp; CSS | Ironhack PreWork | Andrea Bravo</title>
 </head>
 
 <body>
 
   <div id="tweet">
 
-    <button type="button"> <img src="img/twitter-logo.jpg" alt="Twitter logo"/> Follow
-    </button>
-
     <div id="user">
-      <img src="img/profile-picture.jpg" alt="Profile Picture"/>
+      <button type="button"> <img src="img/twitter-logo.jpg" alt="Twitter logo"/> Follow
+      </button>
 
-       <img src="img/account-logo.jpg"/>
-       <p class="user"> <b>jack</b>
-       <img src="img/validated-account.jpg"/>
-       </p>
+      <img id="user_picture" src="img/profile-picture.jpg" alt="Profile Picture"/>
 
-      <p class="account"> @jack </p>
-      <br>
-    </div>
+      <div id="user_info"
+         <div class="icon_user"><img src="img/account-logo.jpg"/></div>
+         <div class="icon_user"><b>jack</b></div>
+         <div class="icon_user"><img src="img/validated-account.jpg"/></div>
+         <p class="account"> @jack </p>
+      </div>
 
-    <div id="message">
+
+    <div id="user_message">
      <p>just setting up my twttr</p>
      <p class="date"> 9:50 PM - 21 Mar 2006</p>
     </div>
 
 
-   <ul id="data">
-     <img src="img/reply.jpg"/>
-     <p class="date">
-     <img src="img/retweet.jpg"/>
-     <p class="date"> 92,555
-     <img src="img/favorite.jpg"/>
-     <p class="date"> 71,111 </p>
-   </footer>
+   <div id="data">
+    <div class="icon_data"><img src="img/reply.jpg"/></div>
+    <div class="icon_data"><img src="img/retweet.jpg"/></div>
+    <div class="icon_data"><p class="date">92,555</div>
+    <div class="icon_data"><img src="img/favorite.jpg"/></div>
+    <div class="icon_data"><p class="date">71,111</p></div>
+   </div>
 
-  </div>
-
-
+</div>
 </body>
 </html>
